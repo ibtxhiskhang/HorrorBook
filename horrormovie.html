@@ -10,14 +10,49 @@
         <link rel="stylesheet" type="text/css" href="/horrormovie.css"/>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
 	<script type="text/javascript" src="/horrormovie.js"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+
     </head>
     <body>
 
-	<div class="topbar">
+
+	<div class="topbar" class="border">
 		<h1 class="logo">
 		<img src="horrorlogo.png"/><a href="#">Scream On</a>
 		</h1>
 	</div>
+
+	<div class="cont">
+		
+		<div class="particle"></div>
+		<div class="particle"></div>
+		<div class="particle"></div>
+		<div class="particle"></div>
+		<div class="particle"></div>
+		<div class="particle"></div>
+		<div class="particle"></div>
+		<div class="particle"></div>
+		<div class="particle"></div>
+		<div class="particle"></div>
+		<div class="border"></div>
+	   <div class="border"></div>
+		   
+   <svg>
+	   <defs>
+		   <filter id='goo'>
+			   <feGaussianBlur in='SourceGraphic' stdDeviation='10'/>
+			   <feColorMatrix in='name' mode='matrix'
+				   values='1 0 0 0 0 
+						   0 1 0 0 0
+						   0 0 1 0 0
+						   0 0 0 30 -15' />
+			   <feBlend in='SourceGraphic' />
+		   </filter>
+	   </defs>
+   </svg>
+		   
+   </div>
 
 
 	<div class="home-spacer">
@@ -28,42 +63,13 @@
 	  </form>
 	</div>
 	<br><br>
-	<div class="cont">
-		
-		 <div class="particle"></div>
-		 <div class="particle"></div>
-		 <div class="particle"></div>
-		 <div class="particle"></div>
-		 <div class="particle"></div>
-		 <div class="particle"></div>
-		 <div class="particle"></div>
-		 <div class="particle"></div>
-		 <div class="particle"></div>
-		 <div class="particle"></div>
-		<div class="border"></div>
-		<div class="border"></div>
-			
-	<svg>
-		<defs>
-			<filter id='goo'>
-				<feGaussianBlur in='SourceGraphic' stdDeviation='10'/>
-				<feColorMatrix in='name' mode='matrix'
-					values='1 0 0 0 0 
-							0 1 0 0 0
-							0 0 1 0 0
-							0 0 0 30 -15' />
-				<feBlend in='SourceGraphic' />
-			</filter>
-		</defs>
-	</svg>
-			
-	</div>
+	
 
 	<div class="bookmatch">
 	</div>
 	
 	<footer>
-	  <p>An <a href="https://archivelab.org">Archive Labs</a> experiment 2020</p>
+	  <p>A Group 6 Experiment 2021&copy; </p>
 	</footer>
 
     </body>
