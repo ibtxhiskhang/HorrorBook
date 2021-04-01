@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+h1 {
+    color: rgb(224, 163, 144);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 4px;
+    font-size: 250%;
+}
+
+body {
+    color:rgb(224, 163, 144);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+}
+
